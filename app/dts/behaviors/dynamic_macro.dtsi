@@ -11,8 +11,7 @@
 #if ZMK_BEHAVIOR_OMIT(DM)
         /omit-if-no-ref/
 #endif
-        // Name must be at most 8 characters long
-        dm: dynmacro {
+        dm: dynamic_macro {
             compatible = "zmk,behavior-dynamic-macro";
             #binding-cells = <2>;
             display-name = "Dynamic Macro";
